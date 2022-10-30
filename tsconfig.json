@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "outDir": "build",
+      "moduleResolution": "node",
+      "skipLibCheck": true,
+      "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
