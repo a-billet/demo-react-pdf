@@ -1,10 +1,13 @@
 {
   "compilerOptions": {
-      "module": "commonjs",
-      "outDir": "build",
-      "moduleResolution": "node",
-      "skipLibCheck": true,
-      "jsx": "react-jsx"
+    "module": "commonjs",
+    "outDir": "build",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "target": "es2020",
+    "lib": ["es2021", "esnext", "dom"]
   },
   "include": ["src"]
 }
